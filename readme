@@ -11,6 +11,14 @@ router		-	npm i react-router-dom —save-dev
 
 macro-css	- 	npm i macro-css					(https://github.com/Archakov06/macro-css)
 
+gh-pages	-	npm i gh-pages					(edit package.json:
+										add "homepage": "*git pages url*"
+										scripts: {
+											"predeploy": "npm run build",
+											"deploy": "gh-pages -d build"
+										}
+									)
+
 !!!!!!		Git project			!!!!!!
 
 …or create a new repository on the command line
