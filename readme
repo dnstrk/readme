@@ -19,6 +19,9 @@ gh-pages	-	npm i gh-pages					(edit package.json:
 										}
 									)
 
+
+proxy - https://create-react-app.dev/docs/proxying-api-requests-in-development/
+
 !!!!!!		Git project			!!!!!!
 
 …or create a new repository on the command line
